@@ -69,4 +69,4 @@ Tắt Popup
     Click Element    //div[@id='fragment-34202-joci']//span[@class='pop-up-porlet-close-btn']
     Wait Until Element Is Not Visible    //div[@id='fragment-34202-joci']//span[@class='pop-up-porlet-close-btn']    3s
  Verify trang có chứa "Chọn thẻ phù hợp với bạn"
-    Wait Until Element Is Visible    //div[@class='col banner-title']
+    Wait Until Element Is Visible    //div[contains(text(),'Chọn thẻ phù hợp với bạn')]
